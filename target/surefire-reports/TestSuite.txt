@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 70.168 s <<< FAILURE! - in TestSuite
+EndToEnd.SeleniumProject.HomePage.basePageNavigation[resticteduser.com, password, restricted user](2)  Time elapsed: 2.662 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="https://rahulshettyacademy.com/sign_in/">...</a> is not clickable at point (758, 16). Other element would receive the click: <div class="listbuilder-popup-content">...</div>
+  (Session info: headless chrome=98.0.4758.109)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'Balajis-MacBook-Air.local', ip: 'fe80:0:0:0:1009:c3a4:9b67:dd20%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4398d913bd9868c49f2da502690c2638, clickElement {id=e7d6d39b-87e9-4b62-8750-93dfbc5db1e6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.109, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: /var/folders/lj/pl5pn49x0jg...}, goog:chromeOptions: {debuggerAddress: localhost:52750}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52750/devtoo..., se:cdpVersion: 98.0.4758.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (4398d913bd9868c49f2da502690c2638)] -> css selector: a[href*='sign_in']]
+Session ID: 4398d913bd9868c49f2da502690c2638
+	at EndToEnd.SeleniumProject.HomePage.basePageNavigation(HomePage.java:44)
+
